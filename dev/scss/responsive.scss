@@ -1,6 +1,9 @@
 @media screen and (max-width: 1072px) {
-  span.arrow-left, span.arrow-right {
-    display: none !important; }
+  span {
+    &.arrow-left, &.arrow-right {
+      display: none !important;
+    }
+  }
   .overlay {
     background: #FFE1BD;
     width: 40%;
@@ -10,7 +13,8 @@
     position: absolute;
     padding-top: 15%;
     opacity: 0;
-    transition: all 200ms; }
+    transition: all 200ms;
+  }
   .overlay2 {
     background: #FFE1BD;
     width: 40%;
@@ -20,28 +24,42 @@
     position: absolute;
     padding-top: 15%;
     opacity: 0;
-    transition: all 200ms; } }
+    transition: all 200ms;
+  }
+}
 
 @media screen and (max-width: 992px) {
-  section.clients-says article.says header {
-    padding-right: 0; }
-    section.clients-says article.says header h1 {
-      text-align: center; }
-    section.clients-says article.says header hr {
-      float: none; }
-    section.clients-says article.says header p {
-      text-align: center; }
-  section.what-we-do div.row article header {
-    margin-top: 50px;
-    width: 100%;
-    text-align: center; }
-  section.services div.row article header p {
-    margin: 0; }
-  section.what-we-do div.row article header p {
-    margin: 0; }
-  section.what-we-do div.row article header hr {
-    margin: 0 auto;
-    float: none; }
+  section {
+    &.clients-says article.says header {
+      padding-right: 0;
+      h1 {
+        text-align: center;
+      }
+      hr {
+        float: none;
+      }
+      p {
+        text-align: center;
+      }
+    }
+    &.what-we-do div.row article header {
+      margin-top: 50px;
+      width: 100%;
+      text-align: center;
+    }
+    &.services div.row article header p {
+      margin: 0;
+    }
+    &.what-we-do div.row article header {
+      p {
+        margin: 0;
+      }
+      hr {
+        margin: 0 auto;
+        float: none;
+      }
+    }
+  }
   .overlay {
     background: #FFE1BD;
     width: 40%;
@@ -51,7 +69,8 @@
     position: absolute;
     padding-top: 15%;
     opacity: 0;
-    transition: all 200ms; }
+    transition: all 200ms;
+  }
   .overlay2 {
     background: #FFE1BD;
     width: 40%;
@@ -61,12 +80,15 @@
     position: absolute;
     padding-top: 15%;
     opacity: 0;
-    transition: all 200ms; } }
+    transition: all 200ms;
+  }
+}
 
 @media screen and (max-width: 825px) {
   section.get-in-touch {
     padding-left: 50px;
-    padding-right: 50px; }
+    padding-right: 50px;
+  }
   .overlay {
     background: #FFE1BD;
     width: 40%;
@@ -76,7 +98,8 @@
     position: absolute;
     padding-top: 15%;
     opacity: 0;
-    transition: all 200ms; }
+    transition: all 200ms;
+  }
   .overlay2 {
     background: #FFE1BD;
     width: 40%;
@@ -86,22 +109,35 @@
     position: absolute;
     padding-top: 15%;
     opacity: 0;
-    transition: all 200ms; } }
+    transition: all 200ms;
+  }
+}
 
 @media screen and (max-width: 768px) {
-  section.about-us article header {
-    padding-left: 50px;
-    padding-right: 50px; }
-  section.about-us article div.content, section.about-us article div.best-proj {
-    padding-left: 50px;
-    padding-right: 50px; }
-  section.what-we-do div.row article div.content {
-    padding-left: 50px;
-    padding-right: 50px; }
+  section {
+    &.about-us article {
+      header {
+        padding-left: 50px;
+        padding-right: 50px;
+      }
+      div {
+        &.content, &.best-proj {
+          padding-left: 50px;
+          padding-right: 50px;
+        }
+      }
+    }
+    &.what-we-do div.row article div.content {
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+  }
   nav.navbar-clemo div.clemo-container-fluid {
-    padding: 0; }
-    nav.navbar-clemo div.clemo-container-fluid div.clemo-collapse ul li a.active hr {
-      display: none; }
+    padding: 0;
+    div.clemo-collapse ul li a.active hr {
+      display: none;
+    }
+  }
   .overlay {
     background: #FFE1BD;
     width: 40%;
@@ -111,7 +147,8 @@
     position: absolute;
     padding-top: 15%;
     opacity: 0;
-    transition: all 200ms; }
+    transition: all 200ms;
+  }
   .overlay2 {
     background: #FFE1BD;
     width: 40%;
@@ -121,4 +158,6 @@
     position: absolute;
     padding-top: 15%;
     opacity: 0;
-    transition: all 200ms; } }
+    transition: all 200ms;
+  }
+}
