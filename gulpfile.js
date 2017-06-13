@@ -39,7 +39,7 @@ var path = {
     clean: './build'
 };
 //develop
-gulp.task('devserver', function () {
+gulp.task('default', function () {
     browserSync.init({
         server: "./dev"
     });
@@ -98,14 +98,14 @@ gulp.task('fonts:build', function() {
     gulp.src(path.src.fonts)
         .pipe(gulp.dest(path.build.fonts))
 });
-gulp.task('build', [
+gulp.task('tobuild', [
     'html:build',
     'js:build',
     'style:build',
     'fonts:build',
     'image:build'
 ]);
-gulp.task('buildserver', ['build'], function () {
+gulp.task('build', ['build'], function () {
     browserSync.init({
         server: "./build"
     });
