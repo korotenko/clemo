@@ -1,4 +1,6 @@
 @media screen and (max-width: 1072px) {
+  .hiden {
+    display: inline-block !important; }
   span.arrow-left, span.arrow-right {
     display: none !important; }
   .overlay {
@@ -23,6 +25,8 @@
     transition: all 200ms; } }
 
 @media screen and (max-width: 992px) {
+  .hiden {
+    display: inline-block !important; }
   section.clients-says article.says header {
     padding-right: 0; }
     section.clients-says article.says header h1 {
@@ -64,6 +68,8 @@
     transition: all 200ms; } }
 
 @media screen and (max-width: 825px) {
+  .hiden {
+    display: inline-block !important; }
   section.get-in-touch {
     padding-left: 50px;
     padding-right: 50px; }
@@ -89,6 +95,8 @@
     transition: all 200ms; } }
 
 @media screen and (max-width: 768px) {
+  .hiden {
+    display: inline-block !important; }
   section.about-us article header {
     padding-left: 50px;
     padding-right: 50px; }
