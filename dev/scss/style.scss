@@ -1,5 +1,15 @@
+header.top {
+  margin-top: 63px;
+  margin-left: 85px;
+  margin-right: 85px;
+  margin-bottom: -60px;
+}
 body {
   font-family: Montserrat, sans-serif;
+}
+
+.hiden {
+  display: none !important;
 }
 
 .portfolio {
@@ -302,6 +312,7 @@ section {
   &.best-team {
     background-color: #ffe1bd;
     padding-top: 47px;
+	padding-bottom: 125px;
     div.container {
       margin-top: 0;
     }
@@ -469,6 +480,9 @@ section {
               list-style-image: url(../img/envelope.png);
               padding-bottom: 0;
             }
+			a {
+              color: #fff;
+            }
           }
         }
       }
@@ -573,8 +587,8 @@ span {
   &.arrow-right {
     position: absolute;
     right: 0;
-    margin-right: 126px;
-    margin-top: -418px;
+    margin-right: 175px;
+    margin-top: -373px;
   }
   &.arrow-left {
     background: url(../img/arrow-left.png) no-repeat;

@@ -1,0 +1,119 @@
+.jcarousel-wrapper {
+    margin-top: 66px;
+    position: relative;
+    border: 0px solid #ffe1bd;
+    border-radius: 5px;
+}
+
+.h1-style{
+	color: #000000;
+	font-family: Montserrat;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 42px;
+}
+
+.sep{
+width: 55px;
+height: 2px;
+background-color: #000000;
+}
+
+.p1-style{
+color: #000000;
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 300;
+line-height: 48px;
+}
+/** Carousel **/
+
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel img {
+    max-width: 100%;
+    height: auto !important;
+}
+
+/** Carousel Controls **/
+
+.jcarousel-control-prev{
+    position: absolute;
+    top: 30%;
+    margin-left: -100px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 0 1px #000;
+    font: 24px/27px Arial, sans-serif;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    -webkit-box-shadow: 0 0 4px #F0EFE7;
+    -moz-box-shadow: 0 0 4px #F0EFE7;
+    box-shadow: 0 0 4px #F0EFE7;
+}
+.jcarousel-control-next {
+    position: absolute;
+    top: 30%;
+    margin-right: -100px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 0 1px #000;
+    font: 24px/27px Arial, sans-serif;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    -webkit-box-shadow: 0 0 4px #F0EFE7;
+    -moz-box-shadow: 0 0 4px #F0EFE7;
+    box-shadow: 0 0 4px #F0EFE7;
+}
+
+.jcarousel-control-prev {
+    left: 15px;
+}
+
+.jcarousel-control-next {
+    right: 15px;
+}
+
+/** Carousel Pagination **/
+
+.jcarousel-pagination {
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    margin: 0;
+}
+
+.jcarousel-pagination a {
+    display: inline-block;
+    background: url(../img/ellipse-hole.png) no-repeat;
+    width: 13px;
+    height: 13px;
+    margin: 0 14px 0 0;
+}
+
+.jcarousel-pagination a.active {
+    background: url(../img/ellipse.png) no-repeat;
+}
