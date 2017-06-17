@@ -1,32 +1,29 @@
 $(document).ready(function() {
-    function n(n) {
+    var short = "15px", 
+        long  = "46px";		
+	function show(n) {		
         $(n).css({
-            height: e
+            height: long
         })
     }
-
-    function i(n) {
+    function hide(n) {		
         "" === $(n).val().trim() && $(n).css({
-            height: t
+            height: short
         })
     }! function() {
         var n = $("body").data("page");
-        $("nav ul li a").each(function(i, t) {
+        $("nav ul li a").each(function(hide, short) {
             if ($(this).text().replace(" ", "-") === n) return $(this).addClass("active").append("<hr>"), !1
         })
-    }();
-
-    var t = "15px",
-        e = "46px";
-        
+    }();     
     $("#name").focus(function() {
-        n(this)
+        show(this)
     }), $("#name").focusout(function() {
-        i(this)
+        hide(this)
     }), $("#email").focus(function() {
-        n(this)
+        show(this)
     }), $("#email").focusout(function() {
-        i(this)
+        hide(this)
     }), $("#send").click(function() {
         $("#feedback").hide(1e3, function() {
             $("#msg-sent").slideDown()
