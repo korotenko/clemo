@@ -42,7 +42,11 @@
             .jcarouselPagination({
                 perPage: 1,
                 item: function(page) {
-                    return '<a href="#' + page + '">' + page + '</a>';
+					if (page == 1 || page == 4 || page == 7){
+						return '<a href="#' + page + '"></a>';
+					}else{
+						return '<a href="#' + page + '" class="hiden"></a>';
+					}                    
                 }
             });
     });
