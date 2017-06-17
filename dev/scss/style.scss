@@ -668,9 +668,15 @@ div.container {
 button {
   outline: none;
   &.btn-white {
+    margin-top: 50px;
     border-radius: 25px;
     border: 1px solid #d8d8d8;
     background-color: #fff;
+	width: 170px;
+    height: 50px;
+	font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
     transition: all 200ms;
     &:hover {
       border: 1px solid #000100;
@@ -734,6 +740,142 @@ ul {
       }
     }
   }
+}
+
+section.about-us header:first-child h1:first-child {
+  color: #000;
+  font-size: 60px;
+  font-weight: 100;
+  line-height: 48px;
+  text-align: center;
+  margin: 0;
+  margin-top: 86px; }
+
+section.about-us article {
+  margin-top: 100px; }
+  section.about-us article figure {
+    margin: 0;
+    text-align: center; }
+    section.about-us article figure img {
+      display: inline-block; }
+  section.about-us article header {
+    margin-top: -23px;
+    padding-left: 70px; }
+    section.about-us article header hr {
+      width: 55px;
+      height: 2px;
+      background-color: #000;
+      margin: 0;
+      margin-top: 19px;
+      float: left; }
+  section.about-us article div.content {
+    padding-left: 70px;
+    margin-top: 41px;
+    color: #656565;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 27px; }
+    section.about-us article div.content p {
+      margin-bottom: 27px; }
+    section.about-us article div.content button {
+      margin-top: 15px;
+      width: 170px;
+      height: 50px; }
+  section.about-us article div.best {
+    padding-left: 72px;
+    padding-top: 30px; }
+    section.about-us article div.best h1.best {
+      text-align: left;
+      padding-top: 48px;
+      margin-top: 0;
+      margin-bottom: 20px;
+      color: #000;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 54px; }
+    section.about-us article div.best hr {
+      width: 55px;
+      height: 2px;
+      background-color: #000;
+      margin: 0;
+      margin-top: 16px;
+      float: left; }
+
+section.quantity div.number {
+  h1 {
+    text-align: center;
+    padding-top: 48px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #000;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 54px;
+  }
+  hr {
+    width: 55px;
+    height: 2px;
+    background-color: #000;
+    margin-top: 16px;
+  }
+  p {
+    text-align: center;
+    color: #000000;
+    font-size: 18px;
+    line-height: 48px;
+    margin-bottom: 96px;
+  }
+}
+section.instagram {
+  header h1 {
+    text-align: center;
+    color: #000;
+    font-size: 60px;
+    line-height: 48px;
+    font-weight: 100;
+    margin-top: 87px;
+    margin-bottom: 88px;
+  }
+  article {
+    text-align: center;
+  }
+  h1 {
+    color: #000;
+    font-size: 60px;
+    font-weight: 100;
+    line-height: 48px;
+    text-align: center;
+    margin-top: 89px;
+    margin-bottom: 88px;
+  }
+  article button {
+    width: 170px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+}
+
+/*section instagram*/
+.block {
+  height: 700px;
+}
+section.insta header:first-child h1:first-child {
+  color: #000;
+  font-size: 60px;
+  font-weight: 100;
+  line-height: 48px;
+  text-align: center;
+  margin: 0;
+  margin-top: 89px; 
+  margin-bottom: 88px; }
+.insta img {
+  width: 18%;
+  display: inline-block;
+  margin: 5px;
 }
 
 footer {
