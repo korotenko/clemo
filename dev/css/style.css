@@ -757,3 +757,18 @@ footer {
     color: #656565;
     font-size: 14px;
     font-weight: 300; }
+
+.menu-center {
+  margin-left: 28%;
+  margin-bottom: 96px; }
+
+.menu-style {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 24px;
+  color: #989898; }
+  .menu-style.active {
+    color: #000; }
+  .menu-style:hover {
+    color: #989898; }
