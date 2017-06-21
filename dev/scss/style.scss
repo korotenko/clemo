@@ -6,6 +6,8 @@ header.top {
 }
 body {
   font-family: Montserrat, sans-serif;
+  width:100%;
+  overflow-x:hidden;
 }
 
 .hiden {
@@ -597,12 +599,18 @@ span {
     width: 29px;
     cursor: pointer;
   }
+  &.arrow-left:hover{
+	background: url(../img/arrow-left-white.png) no-repeat;
+  }
   &.arrow-right {
     display: block;
     height: 55px;
     width: 29px;
     cursor: pointer;
     background: url(../img/arrow-right.png) no-repeat;
+  }
+  &.arrow-right:hover{
+	background: url(../img/arrow-right-white.png) no-repeat;
   }
 }
 
@@ -910,4 +918,7 @@ footer {
   &:hover{
 	color: #989898;
   }
+}
+a.noneline {
+  text-decoration: none;
 }

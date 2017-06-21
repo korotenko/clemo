@@ -5,7 +5,9 @@ header.top {
   margin-bottom: -60px; }
 
 body {
-  font-family: Montserrat, sans-serif; }
+  font-family: Montserrat, sans-serif;
+  width: 100%;
+  overflow-x: hidden; }
 
 .hiden {
   display: none !important; }
@@ -487,12 +489,18 @@ span.arrow-left {
   width: 29px;
   cursor: pointer; }
 
+span.arrow-left:hover {
+  background: url(../img/arrow-left-white.png) no-repeat; }
+
 span.arrow-right {
   display: block;
   height: 55px;
   width: 29px;
   cursor: pointer;
   background: url(../img/arrow-right.png) no-repeat; }
+
+span.arrow-right:hover {
+  background: url(../img/arrow-right-white.png) no-repeat; }
 
 .get {
   width: 40px;
@@ -772,3 +780,6 @@ footer {
     color: #000; }
   .menu-style:hover {
     color: #989898; }
+
+a.noneline {
+  text-decoration: none; }
